@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_30cffadfde008fb94ac91b4ef3a29d68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_30cffadfde008fb94ac91b4ef3a29d68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_30cffadfde008fb94ac91b4ef3a29d68 = L.map(
+                "map_30cffadfde008fb94ac91b4ef3a29d68",
+                {
+                    center: [31.9686, -99.9018],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_09bf4a26c857b0fb52be1c527d157120 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_09bf4a26c857b0fb52be1c527d157120.addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+            var circle_marker_ed297bb5c1a9836ad4518d57721c3cfc = L.circleMarker(
+                [31.546872, -97.121041],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.297, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_19b284d4690c3ac19b2b8bcc4eaa530b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37437ebb0b5b9b2cf22c9ecf830b2e5a = $(`<div id="html_37437ebb0b5b9b2cf22c9ecf830b2e5a" style="width: 100.0%; height: 100.0%;"><b>Baylor University</b><br>Total enrollment: 19,297<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_19b284d4690c3ac19b2b8bcc4eaa530b.setContent(html_37437ebb0b5b9b2cf22c9ecf830b2e5a);
+            
+        
+
+        circle_marker_ed297bb5c1a9836ad4518d57721c3cfc.bindPopup(popup_19b284d4690c3ac19b2b8bcc4eaa530b)
+        ;
+
+        
+    
+    
+            var circle_marker_031ef5603c6ba01510ed7702f377f371 = L.circleMarker(
+                [42.026212, -93.648504],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.822, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_e04d22b7c36d0572d49488561eb289eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60d0adbbd8efe9624f628211ec02928c = $(`<div id="html_60d0adbbd8efe9624f628211ec02928c" style="width: 100.0%; height: 100.0%;"><b>Iowa State University</b><br>Total enrollment: 31,822<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_e04d22b7c36d0572d49488561eb289eb.setContent(html_60d0adbbd8efe9624f628211ec02928c);
+            
+        
+
+        circle_marker_031ef5603c6ba01510ed7702f377f371.bindPopup(popup_e04d22b7c36d0572d49488561eb289eb)
+        ;
+
+        
+    
+    
+            var circle_marker_cb2e4075b4cccddde4fac803ad80e720 = L.circleMarker(
+                [39.188648, -96.581077],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.854, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_cd6d962a3dcc9a1b5f1deef3f1943c10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c479d1109277711212afa6efe5b7c1 = $(`<div id="html_b4c479d1109277711212afa6efe5b7c1" style="width: 100.0%; height: 100.0%;"><b>Kansas State University</b><br>Total enrollment: 20,854<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_cd6d962a3dcc9a1b5f1deef3f1943c10.setContent(html_b4c479d1109277711212afa6efe5b7c1);
+            
+        
+
+        circle_marker_cb2e4075b4cccddde4fac803ad80e720.bindPopup(popup_cd6d962a3dcc9a1b5f1deef3f1943c10)
+        ;
+
+        
+    
+    
+            var circle_marker_f0e4b630290514f91f38d1e293ac0399 = L.circleMarker(
+                [36.123085, -97.069743],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.535, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_1ce16295ece3f70626ead4df926ccab1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f30c3e5305329a73c81f897b54b5e9 = $(`<div id="html_b9f30c3e5305329a73c81f897b54b5e9" style="width: 100.0%; height: 100.0%;"><b>Oklahoma State University-Main Campus</b><br>Total enrollment: 24,535<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_1ce16295ece3f70626ead4df926ccab1.setContent(html_b9f30c3e5305329a73c81f897b54b5e9);
+            
+        
+
+        circle_marker_f0e4b630290514f91f38d1e293ac0399.bindPopup(popup_1ce16295ece3f70626ead4df926ccab1)
+        ;
+
+        
+    
+    
+            var circle_marker_779fff7b802d8a92e9be1b324d7e6ab5 = L.circleMarker(
+                [32.70961, -97.364758],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.379, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_43688717976b3754fc5424929374a32c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79cfbbc63ffb5e3ee84e6f12e1650c25 = $(`<div id="html_79cfbbc63ffb5e3ee84e6f12e1650c25" style="width: 100.0%; height: 100.0%;"><b>Texas Christian University</b><br>Total enrollment: 11,379<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_43688717976b3754fc5424929374a32c.setContent(html_79cfbbc63ffb5e3ee84e6f12e1650c25);
+            
+        
+
+        circle_marker_779fff7b802d8a92e9be1b324d7e6ab5.bindPopup(popup_43688717976b3754fc5424929374a32c)
+        ;
+
+        
+    
+    
+            var circle_marker_b1766fc8b2b55851dc62aa6ea68ace28 = L.circleMarker(
+                [33.583448, -101.874783],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.322, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_9580ddbf4ce703648e829954eb5ce361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9e2c1bf516f3e550515369e59f5e807 = $(`<div id="html_e9e2c1bf516f3e550515369e59f5e807" style="width: 100.0%; height: 100.0%;"><b>Texas Tech University</b><br>Total enrollment: 40,322<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_9580ddbf4ce703648e829954eb5ce361.setContent(html_e9e2c1bf516f3e550515369e59f5e807);
+            
+        
+
+        circle_marker_b1766fc8b2b55851dc62aa6ea68ace28.bindPopup(popup_9580ddbf4ce703648e829954eb5ce361)
+        ;
+
+        
+    
+    
+            var circle_marker_fbeca860986b3edced0853d500ddda35 = L.circleMarker(
+                [30.282825, -97.738273],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.476, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_bec765d63abddf6a7a4039b89b678c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c21145b14a43632270e52665c925df82 = $(`<div id="html_c21145b14a43632270e52665c925df82" style="width: 100.0%; height: 100.0%;"><b>The University of Texas at Austin</b><br>Total enrollment: 50,476<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_bec765d63abddf6a7a4039b89b678c99.setContent(html_c21145b14a43632270e52665c925df82);
+            
+        
+
+        circle_marker_fbeca860986b3edced0853d500ddda35.bindPopup(popup_bec765d63abddf6a7a4039b89b678c99)
+        ;
+
+        
+    
+    
+            var circle_marker_012a095a127f7e2081a3133882aef883 = L.circleMarker(
+                [38.958549, -95.247567],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.744, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_5a14925bc3901df162168faee2b1bd05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b789fe8891513f0df3d7f82dd8a00c04 = $(`<div id="html_b789fe8891513f0df3d7f82dd8a00c04" style="width: 100.0%; height: 100.0%;"><b>University of Kansas</b><br>Total enrollment: 26,744<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_5a14925bc3901df162168faee2b1bd05.setContent(html_b789fe8891513f0df3d7f82dd8a00c04);
+            
+        
+
+        circle_marker_012a095a127f7e2081a3133882aef883.bindPopup(popup_5a14925bc3901df162168faee2b1bd05)
+        ;
+
+        
+    
+    
+            var circle_marker_963812c793a562af150bccdcf5f2409c = L.circleMarker(
+                [35.209407, -97.444211],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.772, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_8c31edf359fb3ba7676904cf2def44a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9c50eeb4550ee7ee3ab89a57dbd365a = $(`<div id="html_e9c50eeb4550ee7ee3ab89a57dbd365a" style="width: 100.0%; height: 100.0%;"><b>University of Oklahoma-Norman Campus</b><br>Total enrollment: 27,772<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_8c31edf359fb3ba7676904cf2def44a7.setContent(html_e9c50eeb4550ee7ee3ab89a57dbd365a);
+            
+        
+
+        circle_marker_963812c793a562af150bccdcf5f2409c.bindPopup(popup_8c31edf359fb3ba7676904cf2def44a7)
+        ;
+
+        
+    
+    
+            var circle_marker_0efe57a2f7d57ee1885977e7f0a7bba8 = L.circleMarker(
+                [39.634371, -79.954391],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.269, "stroke": true, "weight": 3}
+            ).addTo(map_30cffadfde008fb94ac91b4ef3a29d68);
+        
+    
+        var popup_b16a5a326f556c23084933738b1e0477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f8ebfec7bc9902a34f54e59b1b8b8e2 = $(`<div id="html_5f8ebfec7bc9902a34f54e59b1b8b8e2" style="width: 100.0%; height: 100.0%;"><b>West Virginia University</b><br>Total enrollment: 26,269<br>Male: 0<br>Female: 0</div>`)[0];
+                popup_b16a5a326f556c23084933738b1e0477.setContent(html_5f8ebfec7bc9902a34f54e59b1b8b8e2);
+            
+        
+
+        circle_marker_0efe57a2f7d57ee1885977e7f0a7bba8.bindPopup(popup_b16a5a326f556c23084933738b1e0477)
+        ;
+
+        
+    
+</script>
+</html>
